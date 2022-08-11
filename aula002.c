@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-//Caractere de escape de linha -> \n
+//Aula 002
+//Função printf, quebra de linha e interpolação
+
+
 int main(){
+    //Caractere de escape de linha -> \n
 
     //printf é uma função de saída
     printf("\nOlá, \nseja \nem-vindo!\n");
