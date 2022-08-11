@@ -8,4 +8,6 @@ int main(){
 
     //printf retorna o comprimento da string printada
     printf("\nValor retornado: %d", printf("Oi\n"));
+
+    return 0;
 }
