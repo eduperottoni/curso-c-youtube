@@ -1,0 +1,17 @@
+//Aula 015
+//Unidades de Medida na Computação
+
+/*
+
+BIT -> menor unidade de medida ("binary digit")
+BYTE -> 8 bits
+
+1024 B -> 1 KiloByte
+1024 KB -> 1 MegaByte
+1024 GB -> 1 TeraByte
+1024 TB -> 1 PetaByte 
+1024 PB -> 1 ExaByte
+1024 EB -> 1 ZettaByte
+1024 ZB -> 1 YottaByte
+
+*/
