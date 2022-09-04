@@ -9,13 +9,15 @@ Operador sizeof x ou sizeof(int)
 
 int main(){
 
-	float numero = 0.55;
+	long int numero = 55;
 
 	printf("Variável ocupa: %d bytes\n", sizeof(numero));
-	printf("Float ocupa   %d bytes\n", sizeof(float));
-	printf("Int ocupa:    %d bytes\n", sizeof(int));
 	printf("Char ocupa:   %d bytes\n", sizeof(char));
+	printf("Int ocupa:    %d bytes\n", sizeof(int));
+	printf("Long int ocupa: %d bytes\n", sizeof(long int));
+	printf("Long long int ocupa: %d bytes\n", sizeof(long long int));
+	printf("Float ocupa   %d bytes\n", sizeof(float));
 	printf("Double ocupa: %d bytes\n", sizeof(double));
-
+	printf("Long double ocupa: %d bytes\n", sizeof(long double));
 	return 0;
 }

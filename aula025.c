@@ -17,7 +17,8 @@ int main(){
 	printf("Valor de a: %d\n", x);
 
 	//Exemplo de casting:
-	printf("Divisão: %f\n", (float)x/(float)y);
+	//Quando um elemento da divisão é convertido, o outro é convertido internamente de forma automática
+	printf("Divisão: %f\n", (float)x/y);
 
 	printf("Subtração: %d\n", x - y);
 	return 0;

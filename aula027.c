@@ -5,7 +5,7 @@
 //Operador de incremento -> ++;
 
 int main(){
-	int contador=10, resultado = 10;
+	int contador = 10, resultado = 10;
 
 	//Pré-incremento --> ++var
 	//Pós-incremento --> var++ (gera uma nova instrução - nova linha)
@@ -18,6 +18,7 @@ int main(){
 	*/
 	resultado = contador++;
 
+	printf("Valor: %d\n", resultado);
 	printf("Valor: %d\n", resultado);
 
 	return 0;
