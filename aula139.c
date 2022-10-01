@@ -8,16 +8,16 @@
 int main() {
 
 	char palavra1[] = "Eduardo";
-	char substring[] = "edu";
+	char substring[] = "Edu";
 	char *psubstring;
 
 	psubstring = strstr(palavra1, substring);
 	//Se não acha a substring, retorna nulo (segmentation fault)
 
 	if (psubstring)
-		printf("Localiz. da substring \"%s\": %c | %d", substring, *psubstring, psubstring);
+		printf("Localiz. da substring \"%s\": %c | %d\n", substring, *psubstring, psubstring);
 	else
-		printf("Ponteiro nulo");
+		printf("Ponteiro nulo\n");
 	
 
 	return 0;
